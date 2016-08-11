@@ -15,6 +15,7 @@ var SongQueueView = Backbone.View.extend({
         return entryView.render();
       })
     );
+    this.$el.css({float: 'left', 'padding-right': '100px'});
     return this.$el;
   }
 

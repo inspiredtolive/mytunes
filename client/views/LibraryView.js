@@ -20,6 +20,7 @@ var LibraryView = Backbone.View.extend({
         return new LibraryEntryView({model: song}).render();
       })
     );
+    this.$el.css({float: 'left'});
   }
 
 });
