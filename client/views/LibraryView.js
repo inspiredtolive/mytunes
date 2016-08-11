@@ -22,3 +22,4 @@ var LibraryView = Backbone.View.extend({
   }
 
 });
+console.log('LibraryView.js is loaded');
